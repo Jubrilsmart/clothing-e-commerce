@@ -40,10 +40,10 @@ const footerLink = [
 function Footer() {
   return (
     <div style={BannerImg} className='text-white mb-20'>
-        <div className='container'>
-            <div className='grid sm:grid-cols-3 py-44 pt-5'> 
+        <div className='container mx-auto'>
+            <div className='grid sm:grid-cols-3 gap-8 py-44 pt-10'> 
                 {/* company detail */}
-                <div className='py-8 px-4'>
+                <div>
                     <h1 className='sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3'>
                         <img className='max-w-[50px]' src={footerLogo} alt="" />
                         Shopsy</h1>
